@@ -1,6 +1,5 @@
 name: pooldose_orp_controller
-description: "PoolDose & NOVA-M ORP Pro Pool Water Chemistry Controller App"
-publish_to: 'none'
+description: A new Flutter project.
 version: 1.0.0+1
 
 environment:
@@ -33,5 +32,6 @@ flutter:
   uses-material-design: true
   assets:
     - assets/images/
+
 dependency_overrides:
   intl: ^0.18.1
