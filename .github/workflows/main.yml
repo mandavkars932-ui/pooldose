@@ -17,17 +17,16 @@ jobs:
           distribution: 'zulu'
           java-version: '17'
           
-      - name: Set up Flutter (Stable 3.19.6)
+      - name: Set up Flutter (Latest Stable)
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.19.6'
           channel: 'stable'
           
       - name: Install Dependencies
         run: flutter pub get
         
       - name: Build APK
-        run: flutter build apk --release --no-sound-null-safety
+        run: flutter build apk --release
         
       - name: Upload APK Artifact
         uses: actions/upload-artifact@v4
