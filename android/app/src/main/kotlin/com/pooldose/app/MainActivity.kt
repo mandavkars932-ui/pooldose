@@ -1,6 +1,6 @@
-package com.pooldose.app
+package com.yourcompany.pooldose //
 
-import io.flutter.embedding.android.FlutterActivity
+import io.flutter.embedding.android.
 
-class MainActivity: FlutterActivity() {
+class MainActivity MainActivity: FlutterActivity(
 }
