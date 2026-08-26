@@ -23,14 +23,13 @@
               android:name="io.flutter.embedding.android.NormalTheme"
               android:resource="@style/NormalTheme"
               />
-            <intent-filter>
+            </activity>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
-            </intent-filter>
+            </activity>
         </activity>
-        
-        <meta-data
-            android:name="io.flutter.app.and
-            android:value="true" />
+         <meta-data
+            android:name="flutterEmbedding"
+            android:value="2" />
     </application>
 </manifest>
