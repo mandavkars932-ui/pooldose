@@ -27,7 +27,7 @@ jobs:
       run: flutter pub get --no-example
 
     - name: Build APK (Bypass Constraints)
-      run: flutter build apk --release --no-validate-project-dependencies
+      run: flutter build apk --release
 
     - name: Upload APK Artifact
       uses: actions/upload-artifact@v4
